@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@telegraf/types@npm:^6.9.0":
+  version: 6.9.1
+  resolution: "@telegraf/types@npm:6.9.1"
+  checksum: bafdded5413bfae9bb1369c311c063b7e210b3f950f7df2dc9acf10510ca5e1f928045264684afd31fe96d0645dc2a3d9b979cdb9c29d8a696a6738dd60fa4f9
+  languageName: node
+  linkType: hard
+
 "abort-controller@npm:^3.0.0":
   version: 3.0.0
   resolution: "abort-controller@npm:3.0.0"
@@ -482,7 +489,7 @@ __metadata:
     dotenv: ^16.0.3
     express: ^4.18.2
     request: ^2.88.2
-    telegraf: ^4.12.2
+    telegraf: ^4.14.0
   languageName: unknown
   linkType: soft
 
@@ -974,10 +981,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"telegraf@npm:^4.12.2":
-  version: 4.12.2
-  resolution: "telegraf@npm:4.12.2"
+"telegraf@npm:^4.14.0":
+  version: 4.14.0
+  resolution: "telegraf@npm:4.14.0"
   dependencies:
+    "@telegraf/types": ^6.9.0
     abort-controller: ^3.0.0
     debug: ^4.3.4
     mri: ^1.2.0
@@ -985,10 +993,9 @@ __metadata:
     p-timeout: ^4.1.0
     safe-compare: ^1.1.4
     sandwich-stream: ^2.0.2
-    typegram: ^4.3.0
   bin:
     telegraf: lib/cli.mjs
-  checksum: 5991344875382523596eaae1d72677f76cbc6b359cc5c0f4dbcba8643ada1704eb5298538500661bdf7b05b72121216ab5d4a23d0f60248be3c62406581621b3
+  checksum: 3172ed8e85a5aa3cb66ab70fb21b3a1cd7e5254a59416eece4b40d47106438840f3cdacb93f71bcac449e2bbecce2ae9ed9e79a63561d208394ea27d3ce83d0e
   languageName: node
   linkType: hard
 
@@ -1039,13 +1046,6 @@ __metadata:
     media-typer: 0.3.0
     mime-types: ~2.1.24
   checksum: 2c8e47675d55f8b4e404bcf529abdf5036c537a04c2b20177bcf78c9e3c1da69da3942b1346e6edb09e823228c0ee656ef0e033765ec39a70d496ef601a0c657
-  languageName: node
-  linkType: hard
-
-"typegram@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "typegram@npm:4.3.0"
-  checksum: 77d4738257230df9fa092ba9c5b29cde2954f2dd96f962a8568175ef391e5ba8304a8d27307958ff1ec45556ffb774df977ccc71c2f4cf33d9f6e350956e91b8
   languageName: node
   linkType: hard
 
